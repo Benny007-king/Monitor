@@ -23,7 +23,7 @@ let db: Database;
 // Initialize Database
 async function initDb() {
   db = await open({
-    filename: './database.sqlite',
+    filename: './data/database.sqlite',
     driver: sqlite3.Database
   });
 
