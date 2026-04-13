@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  gateway-monitor:
+    build: .
+    container_name: gateway-monitor
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      # Persist the database file in the local 'data' folder
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
