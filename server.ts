@@ -71,7 +71,7 @@ async function initDb() {
         secure: false,
         user: '',
         pass: '',
-        to: 'bennyd@integrity-software.co.il'
+        to: 'email@example.com'
       })
     ]);
   }
