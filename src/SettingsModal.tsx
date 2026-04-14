@@ -16,7 +16,7 @@ export default function SettingsModal({ token, onClose }: { token: string, onClo
     secure: false,
     user: '',
     pass: '',
-    to: 'bennyd@integrity-software.co.il'
+    to: ''
   });
   const [emailMsg, setEmailMsg] = useState('');
 
