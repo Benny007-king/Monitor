@@ -71,7 +71,7 @@ async function initDb() {
         secure: false,
         user: '',
         pass: '',
-        to: 'email@example.com'
+        to: ''
       })
     ]);
   }
